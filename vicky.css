@@ -1,0 +1,67 @@
+@font-face {
+font-family: 'VLPGoudy';
+src: url('GoudyStM.otf');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family:'VLPGoudy';
+src: url('GoudyStM-Italic.otf');
+font-weight: normal;
+font-style: italic;
+}
+
+body {
+background: #ccffff;
+font-size: 1.6em;
+line-height: 140%;
+margin-top: 20px;
+text-align: left;
+font-family: 'VLPGoudy', Georgia, serif;
+font-style: normal;
+}
+
+/*link decoration*/
+a {
+text-decoration:none;
+color:#009999;
+}
+
+
+.navbar-default .navbar-brand  {
+  font-weight: bolder;
+  font-family: "Segoe UI",  Arial, sans-serif; 
+  font-size: 1.4em;
+  color: #006666;
+} 
+
+li {
+ font-family: "Segoe UI",  Arial, sans-serif; 
+font-size: 1.2em;
+}
+
+h1 {
+font-family: 'VLPGoudy', Georgia, serif;
+font-weight: bold;
+font-size: 1.1em;
+text-align:left;
+	}
+
+h2 {
+font-family:  'VLPGoudy', Georgia, serif;
+font-weight: bold;
+font-size: 1.1em;
+color: #006666;
+text-align: left;
+}	
+
+img {
+float:left;
+max-width: 100%;
+height: auto;
+margin: 25px 20px 10px 0px;
+}
+
+
+

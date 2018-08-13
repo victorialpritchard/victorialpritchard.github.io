@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="Vicky.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Victoria L. Pritchard</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="VLP_Research.html">Research</a></li>
+        <li><a href="VLP_Publications.html">Publications</a></li>
+      </ul>
+      </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<div class="row">
+<div class="col-md-3">
+<img class="img-fluid img-rounded float-left" " src="Teno_small.jpg" alt="">
+</div>
+<div class="col-md-9">
+<h2>
+Genomic signatures of local selection in Atlantic salmon
+</h2>
+<p>Understanding how populations adapt to their local environment both improves our understanding of how biodiversity evolves, and guides our management of threatened or exploired taxa. With <a href="https://www.molecularecologist.com/2017/12/how-molecular-ecologists-work-craig-primmer-on-solving-problems-on-the-bike-and-in-the-sauna/">Craig Primmer</a> at the University of Turku, I have been using dense genomic datasets to identify loci potentially underlying local adaptation in Atlantic salmon (<em>Salmo salar</em>). My main study system is the large <a href="https://www.luke.fi/en/natural-resources/fish-and-the-fishing-industry/fish-resources/salmon-2/river-teno-salmon/">Teno (Tana) River</a> salmon stock of northern Finland and Norway, which comprises multiple, genetically distinct, sub-populations. Comparing juvenile fish from different locations, I identified signals consistent with <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/mec.14705">differential local selection</a> around genes associated with variation in sexual maturation, energy homeostasis and immune defence. These included the large-effect <a href="https://www.biorxiv.org/content/early/2015/08/20/024695">age-at-maturity gene</a> <em>vgll3</em> , the well-known obesity gene <em>mc4r</em>, and major histocompatibility complex II. Most strikingly, I confirmed a region on Chromosome 9 that is extremely differentiated among Teno sub-populations and is also a candidate for local selection over the <a href="https://www.biorxiv.org/content/early/2018/06/15/347724">global range</a> of Atlantic salmon. This region overlaps with a haplotype strongly associated with <a href="https://www.nature.com/articles/s41598-017-01890-2">spawning ecotype</a> in sockeye salmon (<em>Oncorhynchus nerka</em>), suggesting that the same gene may be the selective target in both cases. The phenotypic effect of this region in Atlantic salmon is unknown, although allelic variation is related to upstream catchment area and covaries with timing of the return spawning migration. My ongoing follow-up work examining Atlantic salmon populations in north-western Russia, and comparing results from similar studies, indicates that many of the same loci could be adaptively important in Atlantic salmon at regional and continental scales, as well as in other salmonid species. This research is part of the <a href="https://www.aka.fi/globalassets/32akatemiaohjelmat/arktinen/hanke-esitteet-en/arktiko_primmer.pdf">Integrative Science for Adaptive Co-Management in the Arctic</a> project.</p>
+</div>
+</div>
+<hr>
+<div class="row">
+<div class="col-md-3">
+<img class="img-fluid img-rounded float-left" src="Escapeesmall.jpg" alt="">
+</div>
+<div class="col-md-9">
+<h2>
+Factors influencing hybridization between wild Atlantic salmon and aquaculture escapees
+</h2>
+<p>
+Wild Atlantic salmon are threatened by introgressive hybridization with domestic salmon that have escaped from fish farms. While some wild populations have shown genetic changes as a result of this interbreeding, other populations have retained their genetic integrity despite receiving similar numbers of escapees. It is unknown what makes an Atlantic salmon population vulnerable to such â€˜genetic invasion. I am addressing this question by studying wild-escapee hybridization in the Teno River using a 45 year scale archive. I have identified a set of <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/eva.12407">SNP markers</a> that can collectively discriminate different classes of aquaculture-wild hybrids. Currently, I am using these to investigate hybridization dynamics over space and time with the aim of identifying environmental and demograpic factors that influence these dynamics.
+</p>
+</div>
+</div>
+<hr>
+<div class="row">
+<div class="col-md-3">
+<img class="img-fluid img-rounded float-left" src="Sticklebacks.jpg" alt="">
+</div>
+<div class="col-md-9">
+<h2>
+Regulatory architecture of gene expression variation in the threespine stickleback
+</h2>
+<p>
+Adaption to novel environments ofteninvolves changes in regions of the genome that regulate gene expression, rather than in the coding regions of genes themselves. The threespine stickleback (<em>Gasterosteus aculeatus</em>) is an important model for local adaptation, yet the regulatory architecture of gene expression variation is not well characterized in this species. Working with <a href="http://users.utu.fi/eriled/index.html">Erica Leder</a> and Craig Primmer at the University of Turku I combined gene expression and RAD-tag datasets for sib/half sib stickleback families and used a QTL mapping approach to identify regions of the genome underlying expression variation in over 10,000 genes. <a href="http://www.g3journal.org/content/7/1/165">Results</a> suggested the presence of several QTL ‘hotspots’ that influenced the expression of multiple, distant genes. However, these ‘hotspots’ did not overlap with regions of the genome known to be involved in stickleback adaptive divergence.
+</p>
+</div>
+</div>
+<hr>
+<div class="row">
+<div class="col-md-3">
+<img class="img-fluid img-rounded float-left" src="Cutthroatsmall.jpg" alt="">
+</div>
+<div class="col-md-9">
+<h2>
+Conservation genetics of cutthroat trout
+</h2>
+<p>
+The interior cutthroat trout (<em>O. clarki</em> subsp.) of western North America have declined to a fraction of their native range as a result of habitat loss and hybridization with introduced rainbow trout (<em>O. mykiss</em>). In collaboration with <a href="http://aces.nmsu.edu/academics/fws/david-cowley.html">David Cowley</a> at New Mexico State University, <a href="http://www.jessicalmetcalf.com/">Jessica Metcalf</a> and <a href="https://www.colorado.edu/ebio/andrew-martin">Andrew Martin</a> at the University of Colorado, <a href="https://www.nytimes.com/2016/01/19/science/new-tactics-to-save-californias-decimated-salmon-population.html">John Carlos Garza</a> at the Southwest Fisheries Science Center and <a href="https://www.unr.edu/biology/people/mary-peacock">Mary Peacock</a> at the University of Nevada, I used population genetic approaches to guide cutthroat trout management. My work showed that population <a href="https://www.tandfonline.com/doi/abs/10.1577/T06-038.1">fragmentation</a> has had important genetic consequences; that a signature of evolutionary independence <a href="https://link.springer.com/article/10.1007/s10592-008-9652-8">can be retained</a> between drainages despite large scale transplants of fish between them; but that such historic transplants could also result in populations being <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-294X.2007.03472.x">mis-identified</a> and containing <a href="https://link.springer.com/article/10.1007%2Fs10592-015-0712-6">unexpected genetic contributions</a> from other cutthroat subspecies. I also found that levels of non-native introgression estimated using existing non-diagnostic markers such as microsatellites <a href="https://link.springer.com/article/10.1007/s10592-006-9280-0">varied</a> with the statistical method and pure reference sample used. This conflicted with recommendations placing cutthroat trout populations into different management categories based on threshold introgression levels. To solve this problem, I subsequently developed a large set of <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1755-0998.2012.03149.x">SNP markers</a> diagnostic between rainbow trout and all cutthroat trout subspecies.
+</p>
+</div>
+</div>
+<hr>
+<div class="row">
+<div class="col-md-3">
+<img class="img-fluid img-rounded float-left" src="Copepodssmall.jpg" alt="">
+</div>
+<div class="col-md-9">
+<h2>
+Consequences of inter-population hybridization in <em>Tigriopus californicus</em>
+</h2>
+<p>
+Although introgressive hybridization with introduced taxa is a threat to many species of conservation concern, the consequences of this hybridization are difficult to predict. Examining the outcomes of inter-population hybridization in the laboratory can both inform the management of such threatened taxa, and shed light on genomic interactions that contribute to reproductive barriers between species. I undertook this work with <a href="https://dornsife.usc.edu/labs/edmands/">Suzanne Edmands</a> at the University of Southern California, using the intertidal copepod <em>Tigriopus californicus</em> - an important model for outbreeding depression. <a href="https://bmcgenet.biomedcentral.com/articles/10.1186/1471-2156-12-54">Genotypic deviations</a> from Hardy-Weinberg equilibrium in controlled crosses between populations suggested that hybrid fitness was influenced both by nuclear-nuclear epistatic interactions and by the presence of deleterious recessive alleles in the parental populations. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1558-5646.2012.01814.x">Genomic outcomes</a> in long term, freely mating, hybrid swarms partly reflected random factors: variation among replicates in the initial contribution of pure parents, and genetic drift. Thus, the outcome of a hybridization event in nature may not be predictable. However, deterministic factors were also important: where pure parents exhibited differential fitness in the lab, genetic material from the fitter population rapidly dominated a swarm. Thus, an invasive species that is more fit in the local environment may rapidly cause â€˜genetic swampingâ€™ of the native population. Different parts of the genome exhibited differential patterns of introgression, which could be strikingly similar across replicate swarms and reflected the genotypic distortion previously observed in controlled crosses. This suggested that deleterious genotypic combinations were removed by selection over time - correspondingly, hybrid swarms showed <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/jeb.12060">no long-term decrease</a> in fitness compared to their pure parents. Thus, even with reduced fitness in initial generations, populations may be able to <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/jeb.12913">recover</a> from the deleterious effects of non-native introgression.
+</p>
+</div>
+</div>
+<hr>
+<div class="row">
+<div class="col-md-3">
+<img class="img-rounded" src="Zebrafishsmall.jpg" alt="">
+</div>
+<div class="col-md-9">
+<h2>
+Other research
+</h2>
+<strong>Morphological variation in the zebrafish, <em>Danio rerio</em></strong>: The south Asian cyprinid genus <i>Danio</i> includes many small fishes that differ strikingly in their color pattern.This pigmentation variation may play a role in speciation within the genus. Little is known, however, about pattern variation within <i>D. rerio</i> in the wild. As part of my PhD, under the supervision of <a href="https://www.sheffield.ac.uk/aps/staff-and-students/acadstaff/butlin">Roger Butlin</a> at the University of Leeds, I investigated the variation and heritability of body and fin among and within populations of zebrafish that I collected from Bangladesh and Nepal.
+</p>
+<strong>The social organization of fish shoals:</strong> in collaboration with <a href="http://www.igb-berlin.de/en/profile/jens-krause">Jens Krause</a> and <a href="https://liu.se/en/employee/domwr72">Dominic Wright</a>, I also used the zebrafish to investigate factors mediating fish <a href="https://www.sciencedirect.com/science/article/pii/S0003347201918585">schooling preferences</a>.
+</p>
+<strong>Population divergence in the meadow grasshopper</strong>: with <a href="http://www.selfishgene.org/Tom/index.htm">Tom Tregenza</a> and Roger Butlin, I worked on a project using the meadow grasshopper, <i>Chorthippus parallelus</i>, to test hypotheses about what drives <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.0014-3820.2000.tb00060.x">population divergence</a> and <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.0014-3820.2000.tb00713.x.">reproductive isolation</a>.
+</div>
+</div>
+<hr>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

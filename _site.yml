@@ -1,0 +1,6 @@
+name: "Victoria L. Pritchard"
+output_dir: "."
+output:
+  html_document:
+    css: Vicky.css
+
